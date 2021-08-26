@@ -70,6 +70,7 @@ flutter:
   assets:
     - assets/images/alienware.jpg
     - assets/images/skull.png
+    - assets/images/skull.gif
     - assets/images/punisher.png
     - assets/
 

@@ -1,12 +1,13 @@
 # This is a generated file; do not edit or check into version control.
 audioplayers=C:\\Users\\suvra\\Documents\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\audioplayers-0.7.8\\
-firebase_analytics=C:\\Users\\suvra\\Documents\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_analytics-5.0.11\\
+firebase_analytics=C:\\Users\\suvra\\Documents\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_analytics-5.0.15\\
 firebase_auth=C:\\Users\\suvra\\Documents\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_auth-0.14.0+9\\
-firebase_core=C:\\Users\\suvra\\Documents\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_core-0.4.4+3\\
-firebase_core_web=C:\\Users\\suvra\\Documents\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_core_web-0.1.1+2\\
-firebase_database=C:\\Users\\suvra\\Documents\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_database-3.1.3\\
+firebase_core=C:\\Users\\suvra\\Documents\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_core-0.4.2+2\\
+firebase_database=C:\\Users\\suvra\\Documents\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_database-3.1.6\\
 fluttertoast=C:\\Users\\suvra\\Documents\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\fluttertoast-3.1.3\\
 path_provider=C:\\Users\\suvra\\Documents\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider-0.4.1\\
-url_launcher=C:\\Users\\suvra\\Documents\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher-5.4.2\\
-url_launcher_macos=C:\\Users\\suvra\\Documents\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_macos-0.0.1+4\\
-url_launcher_web=C:\\Users\\suvra\\Documents\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_web-0.1.1+1\\
+url_launcher=C:\\Users\\suvra\\Documents\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher-5.7.10\\
+url_launcher_linux=C:\\Users\\suvra\\Documents\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_linux-0.0.1+4\\
+url_launcher_macos=C:\\Users\\suvra\\Documents\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_macos-0.0.1+9\\
+url_launcher_web=C:\\Users\\suvra\\Documents\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_web-0.1.5+3\\
+url_launcher_windows=C:\\Users\\suvra\\Documents\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_windows-0.0.1+3\\

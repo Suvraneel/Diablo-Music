@@ -11,7 +11,7 @@ void main() {
   runApp(new MaterialApp(
       title: 'Sign Up Page',
       theme: ThemeData(
-        primarySwatch: Colors.indigo,
+        primarySwatch: Colors.teal,
       ),
       home: new SignUp()));
 }
@@ -49,9 +49,9 @@ class _SignUpState extends State<SignUp> {
         child: ListView(
           children: <Widget>[
 
-        Image.asset('assets/images/skull.png',
-            height: 250,
-            fit: BoxFit.fill,
+        Image.asset('assets/images/skull.gif',
+            height: 100.0,
+            width: 50.0,
             ),
 
             Divider(color: Colors.transparent,),
@@ -71,7 +71,7 @@ class _SignUpState extends State<SignUp> {
             maxLines: 1,
               decoration: InputDecoration(
                   filled: true,
-                  fillColor: Colors.white12,
+                  fillColor: Colors.black54,
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.all(Radius.circular(4)),
                       borderSide: BorderSide(width: 1,color: Colors.teal)
@@ -79,7 +79,7 @@ class _SignUpState extends State<SignUp> {
                   hintText: 'Enter your username here...',
                   labelText: 'Username',
                   hintStyle: TextStyle(
-                    color: Colors.deepPurpleAccent,
+                    color: Colors.white70,
                     fontStyle: FontStyle.italic,
                   )
               ),
@@ -101,7 +101,7 @@ class _SignUpState extends State<SignUp> {
       maxLines: 1,
               decoration: InputDecoration(
                   filled: true,
-                  fillColor: Colors.white12,
+                  fillColor: Colors.black54,
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.all(Radius.circular(4)),
                       borderSide: BorderSide(width: 1,color: Colors.teal)
@@ -109,7 +109,7 @@ class _SignUpState extends State<SignUp> {
                   hintText: 'Enter your Email here...',
                   labelText: 'Email',
                   hintStyle: TextStyle(
-                    color: Colors.deepPurpleAccent,
+                    color: Colors.white70,
                     fontStyle: FontStyle.italic,
                   )
               ),
@@ -132,7 +132,7 @@ class _SignUpState extends State<SignUp> {
               obscureText: true,
               decoration:InputDecoration(
                   filled: true,
-                  fillColor: Colors.white12,
+                  fillColor: Colors.black54,
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.all(Radius.circular(4)),
                       borderSide: BorderSide(width: 1,color: Colors.teal)
@@ -163,7 +163,7 @@ class _SignUpState extends State<SignUp> {
               obscureText: true,
               decoration:InputDecoration(
                   filled: true,
-                  fillColor: Colors.white12,
+                  fillColor: Colors.black54,
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.all(Radius.circular(4)),
                       borderSide: BorderSide(width: 1,color: Colors.teal)
@@ -179,10 +179,7 @@ class _SignUpState extends State<SignUp> {
     )),
             Divider(color: Colors.transparent,),
 
-            RaisedButton(
-              padding: const EdgeInsets.all(25.0),
-              textColor: Colors.amber,
-              color: Colors.transparent,
+            ElevatedButton(
               child: Text("SignUp"),
               onPressed: () async {
                 if(_pass.text==_passc.text) {
@@ -220,6 +217,14 @@ class _SignUpState extends State<SignUp> {
                   );
                 }
               },
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.black54,
+                    onPrimary: Colors.amber,
+                    padding: EdgeInsets.symmetric(horizontal: 80, vertical: 20),
+                    textStyle: TextStyle(
+                      fontSize: 13,
+                      //fontWeight: FontWeight.bold
+                    ))
             ),
 
 
