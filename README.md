@@ -1,8 +1,8 @@
 # Diablo-Music
+- All the music you love, in one place !!!
+- Minimalistic Dark themed music player
+- Firebase integrated Authentication
+- **[ WIP ]**
 
-Diablo Music
-All the music you love, in one place !!!
-Minimalistic Dark themed music player
-
-Find out more about this at:
-https://suvraneel.github.io/product_landing_page_diablo_music.html
+Find out more about this project at:
+[Diablo Music](https://suvraneel.github.io/pages/diablo-music.html)
